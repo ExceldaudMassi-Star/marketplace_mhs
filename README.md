@@ -23,21 +23,22 @@ Marketplace Mahasiswa adalah aplikasi mobile berbasis Flutter yang memungkinkan 
 ## 📁 Directory Structure
 
 lib/
+│
 ├── main.dart
+│
 ├── models/
 │ └── product.dart
+│
 ├── screens/
 │ ├── home_screen.dart
 │ ├── login_screen.dart
 │ └── detail_screen.dart
+│
 ├── services/
 │ └── firestore_service.dart
-├── widgets/
-│ └── product_card.dart
-
-yaml
-Copy
-Edit
+│
+└── widgets/
+└── product_card.dart
 
 ---
 
