@@ -66,7 +66,7 @@ lib
 
 Kamu bisa mengunduh aplikasi versi .apk di link berikut:
 
-👉 [Download APK](sha256:5a9d7d7b6ee4fa3f7a0388f145d1043cc44caefbbae5a05ccdacd60440d348a7)
+👉 [Download APK](https://github.com/ExceldaudMassi-Star/marketplace_mhs/releases/download/Beta/Marketplace_Mhs.apk)
 
 
 ---
