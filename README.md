@@ -22,23 +22,33 @@ Marketplace Mahasiswa adalah aplikasi mobile berbasis Flutter yang memungkinkan 
 
 ## 📁 Directory Structure
 
-lib/
-│
-├── main.dart
-│
-├── models/
-│ └── product.dart
-│
-├── screens/
-│ ├── home_screen.dart
-│ ├── login_screen.dart
-│ └── detail_screen.dart
-│
-├── services/
-│ └── firestore_service.dart
-│
-└── widgets/
-└── product_card.dart
+lib
+│───main.dart    
+└───src
+    │───config
+    |    └──route.dart
+    │───model
+    │    │──category.dart
+    |    │──data.dart
+    |    └──product.dart
+    │───pages
+    |    │──homePage.dart
+    |    │──mainPage.dart
+    |    │──product_detail.dart
+    |    └──shoping_cart_page.dart
+    │───theme
+    |    │──light_color.dart
+    |    └──theme.dart
+    └───widgets
+         │──BottomNavigationBar
+         |   |──bootom_navigation_bar.dart
+         |   |──bottom_curved_Painter.dart
+         |   └──centered_elasticIn_curve.dart
+         |──bottom_navigation_bar.dart
+         |  customRoute.dart
+         |  prduct_icon.dart
+         │──product_card.dart
+         └──title_text.dart
 
 ---
 
@@ -56,7 +66,7 @@ lib/
 
 Kamu bisa mengunduh aplikasi versi .apk di link berikut:
 
-👉 [Download APK](https://drive.google.com/drive/folders/1mFZ3VZuO7fjVhnij-TQSvnQI5Ck9p9Uf?usp=drive_link)
+👉 [Download APK](sha256:5a9d7d7b6ee4fa3f7a0388f145d1043cc44caefbbae5a05ccdacd60440d348a7)
 
 
 ---
