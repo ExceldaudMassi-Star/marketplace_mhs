@@ -1,0 +1,37 @@
+name: marketplace_mhs
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.4
+  firebase_storage: ^11.7.5
+  image_picker: ^1.1.2
+  provider: ^6.1.2
+  intl: ^0.19.0
+  http: ^1.2.1
+  device_preview: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika Anda akan menambahkan gambar lokal (seperti logo),
+  # hapus tanda # di bawah ini dan buat folder 'assets'
+  # assets:
+  #   - assets/
